@@ -1,0 +1,27 @@
+.main-header{
+  background-color:#DE5B49;
+  padding-left:10px;
+  padding-right:15px;
+  padding-top:12px;
+  padding-bottom:15px;
+}
+.acc-link{
+  color:White;
+  margin-right:15px
+}
+.textcenter{
+  text-align:center;
+}
+.texto-rojo{
+  color:#F0C94D;
+}
+.main-container{
+  min-height: 100vh;
+}
+.texto{
+  color:#F0C94D
+}
+.imagen-centro{
+display:block;
+margin:auto;
+}

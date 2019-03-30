@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>DROME SITE</title>
+    <link rel="shortcut icon" href="imag/" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+<body bgcolor="#324D5C" marginheight="50" marginwhidth="50" >
+    <div class="row main-container middle-xs center-xs">
+      <div class="col-md-15 col-sm-15 col-xs-17 col-lg-15">
+        <div class="box">
+    <header class="main-header">
+      <nav>
+        <a href="index.html" class="acc-link">Inicio</a>
+        <a href="diezmos.html" class="acc-link">Diezmos</a>
+        <a href="ficha.html" class="acc-link">Ficha de clasificacion</a>
+        <a href="https://dromestyle.wixsite.com/dromestyle" class="acc-link">Vistete</a>
+        <a href="historia.html" class="acc-link">Su Historia</a>
+      </nav>
+    </header>
+    <header class="textcenter">
+        <h1 class="texto-rojo">Ups, Parece que esta pagina aun no esta disponible.</h1>
+      </header>
+          <script >
+var objetos = new Array();
+objetos[0] = "./imag/ups.png";
+objetos[1] = "./imag/fail.png";
+objetos[2] = "./imag/ups1.png";
+objetos[3] = "./imag/body.gif";
+objetos[4] = "./imag/dos.gif";
+objetos[5] = "./imag/feliz.png";
+objetos[6] = "./imag/gua.gif";
+objetos[7] = "./imag/muchos.gif";
+objetos[8] = "./imag/loos.png";
+
+
+function aleatorio() {
+  var azar = Math.floor(Math.random() * objetos.length);
+  document.images["imagen"].src = objetos[azar];
+}
+</script>
+</head>
+
+<body onload="aleatorio()">
+  <center> 
+<img src="./imag" name="imagen" />
+</center> 
+
+  </body>
+</html>
